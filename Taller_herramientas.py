@@ -5,5 +5,9 @@ def calculadora():
     if operacion == '+' :
         resultado = n1 + n2
         return(resultado)
+    if operacion == '-' :
+        resultado = n1 - n2
+        return(resultado)
+
 
 print(calculadora())
