@@ -4,13 +4,14 @@ def calculadora():
     n2 = int(input("Digite segundo numero:"))
     if operacion == '+' :
         resultado = n1 + n2
-        return(resultado)
+        return resultado
     if operacion == '-' :
         resultado = n1 - n2
-        return(resultado)
+        return resultado
     if operacion == '/' :
         resultado = n1 / n2
         return resultado
-
-
+    if operacion == "*" :
+        resultado = n1*n2
+        return resultado
 print(calculadora())
